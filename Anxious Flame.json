@@ -2940,6 +2940,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -2949,9 +2951,7 @@
               "ignoreDefaultControls": false,
               "maxSpeed": 100,
               "movementAngleOffset": 0,
-              "name": "TopDownMovement",
               "rotateObject": true,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "viewpoint": "TopDown"
             }
           ],
@@ -4833,7 +4833,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7159512592579398,
+        "zoomFactor": 0.586766230962831,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4849,8 +4849,8 @@
           "name": "GreenButtonWithShadow",
           "persistentUuid": "2c9df90d-8e4c-46fe-a339-ecff2ddd2aab",
           "width": 850,
-          "x": 104,
-          "y": 263,
+          "x": 103,
+          "y": 305,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4867,8 +4867,8 @@
           "opacity": 204,
           "persistentUuid": "a495307b-0bec-484a-87ee-781e85bee781",
           "width": 991,
-          "x": 47,
-          "y": 41,
+          "x": 46,
+          "y": 83,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4884,8 +4884,8 @@
           "name": "GreenButtonWithShadow",
           "persistentUuid": "75f7aa41-e78a-4a1f-b4d5-0e82bc459b9f",
           "width": 850,
-          "x": 105,
-          "y": 369,
+          "x": 104,
+          "y": 411,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4895,14 +4895,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 69,
+          "height": 87,
           "keepRatio": true,
           "layer": "",
           "name": "GreenButtonWithShadow",
           "persistentUuid": "22408c6f-1f24-4886-9411-2d867555db40",
           "width": 850,
-          "x": 106,
-          "y": 480,
+          "x": 105,
+          "y": 522,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4911,31 +4911,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 48,
-          "height": 69,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GreenButtonWithShadow",
-          "persistentUuid": "d3a5b221-5051-400d-8dd0-b9d8f860a0d3",
-          "width": 850,
-          "x": 108,
-          "y": 590,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "depth": 1,
+          "height": 114,
           "keepRatio": true,
           "layer": "",
           "name": "Question",
           "persistentUuid": "8f494158-f0c4-49d1-8c1a-5e78aec40f8b",
-          "width": 0,
-          "x": 109,
-          "y": 72,
+          "width": 871,
+          "x": 108,
+          "y": 114,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4951,8 +4935,8 @@
           "name": "AnswerA",
           "persistentUuid": "dc98e9dd-2561-4ba2-a142-5a805a39ee72",
           "width": 826,
-          "x": 113,
-          "y": 264,
+          "x": 112,
+          "y": 306,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -4968,8 +4952,8 @@
           "name": "AnswerB",
           "persistentUuid": "fc398e89-a2ce-4d2d-8602-9a73046b7d89",
           "width": 821,
-          "x": 119,
-          "y": 372,
+          "x": 118,
+          "y": 414,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -4979,32 +4963,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 59,
+          "height": 58,
           "keepRatio": true,
           "layer": "",
           "name": "AnswerC",
           "persistentUuid": "2570097f-6295-4733-a8e0-791b89a7dfaa",
           "width": 834,
-          "x": 120,
-          "y": 484,
+          "x": 112,
+          "y": 533,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 61,
-          "keepRatio": true,
-          "layer": "",
-          "name": "AnswerD",
-          "persistentUuid": "67dd1a04-d635-4855-8144-edc29e7f9fe9",
-          "width": 823,
-          "x": 122,
-          "y": 591,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5018,8 +4985,8 @@
           "name": "Correct",
           "persistentUuid": "fb84b13d-550c-4575-85b4-5a997499f941",
           "width": 0,
-          "x": 413,
-          "y": 102,
+          "x": 412,
+          "y": 144,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -5034,8 +5001,8 @@
           "name": "Wrong",
           "persistentUuid": "51475e21-8ef8-4149-8af3-724d02319f37",
           "width": 0,
-          "x": 321,
-          "y": 99,
+          "x": 320,
+          "y": 141,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -5209,7 +5176,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Người điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn có bị nghiêm cấm không?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -5232,7 +5199,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Người điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn có bị nghiêm cấm không?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -5262,7 +5229,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Bị nghiêm cấm",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -5285,7 +5252,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Bị nghiêm cấm",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -5315,7 +5282,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Không bị nghiêm cấm",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -5338,7 +5305,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Không bị nghiêm cấm",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -5368,7 +5335,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -5391,7 +5358,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -5782,7 +5749,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerA",
+                    "AnswerB",
                     "ButtonFSM",
                     ""
                   ]
@@ -5850,7 +5817,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerB",
+                    "AnswerA",
                     "ButtonFSM",
                     ""
                   ]
@@ -5959,6 +5926,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6087,6 +6055,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
         },
         {
           "name": "Flippable",
@@ -8732,7 +8704,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7159512592579398,
+        "zoomFactor": 0.5138695472239849,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8826,13 +8798,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 111,
           "keepRatio": true,
           "layer": "",
           "name": "Question",
           "persistentUuid": "8f494158-f0c4-49d1-8c1a-5e78aec40f8b",
-          "width": 0,
+          "width": 858,
           "x": 109,
           "y": 72,
           "zOrder": 3,
@@ -9108,7 +9081,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Người lái xe phải giảm tốc độ, có tín hiệu rẽ phải và đi sát về bên phải của phần đường xe chạy trong các trường hợp nào dưới đây?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -9131,7 +9104,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Người lái xe phải giảm tốc độ, có tín hiệu rẽ phải và đi sát về bên phải của phần đường xe chạy trong các trường hợp nào dưới đây?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -9161,7 +9134,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Khi xe chạy phía trước có tín hiệu vượt xe khác.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -9184,7 +9157,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Khi xe chạy phía trước có tín hiệu vượt xe khác.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -9214,7 +9187,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Khi phía trước có xe chạy ngược chiều.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -9237,7 +9210,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Khi phía trước có xe chạy ngược chiều.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -9267,7 +9240,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Khi xe sau xin vượt nếu đủ điều kiện an toàn.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -9290,7 +9263,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Khi xe sau xin vượt nếu đủ điều kiện an toàn.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -9320,7 +9293,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "D. ",
+          "string": "D. Khi xe sau có tín hiệu vượt bên phải.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -9343,7 +9316,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "D. ",
+            "text": "D. Khi xe sau có tín hiệu vượt bên phải.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -9681,7 +9654,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerA",
+                    "AnswerC",
                     "ButtonFSM",
                     ""
                   ]
@@ -9807,7 +9780,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerC",
+                    "AnswerA",
                     "ButtonFSM",
                     ""
                   ]
@@ -18380,6 +18353,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -20258,6 +20235,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
         },
         {
           "name": "Flippable",
