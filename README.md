@@ -1,4 +1,4 @@
-# ED3320 - Quản trị dự án
+# ED3320 - Quản trị dự án (HUST)
 GVHD: PGS.TS Bùi Thị Thúy Hằng
 
 ## Đề tài:
