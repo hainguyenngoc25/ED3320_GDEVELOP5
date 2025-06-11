@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1080,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "F:\\HUST\\20242\\ED3320\\Traffic Game",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -481,6 +481,64 @@
         "name": "Storyboard2.3.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Calm Music (No Copyright) -Dawn- by @Sappheiros .mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Calm Music (No Copyright) -Dawn- by @Sappheiros .mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Traffic Loops [Lofi-Music].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Traffic Loops [Lofi-Music].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Game background Music loop short - Sound Effect free (HD).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Game background Music loop short - Sound Effect free (HD).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TING SOUND EFFECT.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\TING SOUND EFFECT.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Wrong Sound Effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Wrong Sound Effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -535,6 +593,51 @@
       "name": "point",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "delCoin1",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin2",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin3",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin4",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin5",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin6",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin7",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin8",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "delCoin9",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -558,7 +661,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5311973979745606,
+        "zoomFactor": 0.46520428746527087,
         "windowMask": false
       },
       "objectsGroups": [
@@ -579,25 +682,6 @@
       ],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 786,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "Background",
-          "persistentUuid": "5d2308b7-a5c2-4370-95a7-30ae4ecf5c71",
-          "sealed": true,
-          "width": 1082,
-          "x": 0,
-          "y": -1,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -625,8 +709,8 @@
           "name": "WhiteSleekButton",
           "persistentUuid": "fbe6cfa5-cbb1-404f-a2a0-1b29535bbcd3",
           "width": 256,
-          "x": 109,
-          "y": 371,
+          "x": 114,
+          "y": 369,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -651,15 +735,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
           "keepRatio": true,
           "layer": "",
           "name": "PlayText",
           "persistentUuid": "8893a405-3c22-41c7-9af9-dc83745bf657",
-          "width": 0,
-          "x": 196,
-          "y": 242,
+          "width": 242,
+          "x": 117,
+          "y": 263,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -669,14 +754,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 101,
+          "height": 98,
           "keepRatio": true,
           "layer": "",
           "name": "HuongDan",
           "persistentUuid": "2af77861-85b4-40a1-83cf-47df58503093",
           "width": 231,
-          "x": 120,
-          "y": 361,
+          "x": 127,
+          "y": 363,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -684,15 +769,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 93,
           "keepRatio": true,
           "layer": "",
           "name": "Quit",
           "persistentUuid": "889fff3a-204d-4c60-855a-bfc667e73dd0",
-          "width": 0,
-          "x": 189,
-          "y": 563,
+          "width": 249,
+          "x": 115,
+          "y": 588,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -724,8 +810,27 @@
           "persistentUuid": "f91d0a08-6ba7-4bdf-bffd-9f494177d330",
           "width": 0,
           "x": 798,
-          "y": -48,
+          "y": -62,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 808,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Background",
+          "persistentUuid": "d89c7fd3-337b-443f-b247-0d3a8b4db941",
+          "sealed": true,
+          "width": 1079,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -913,7 +1018,7 @@
           ],
           "string": "CHƠI",
           "font": "SVN-Determination Sans2.otf",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 40,
           "color": {
             "b": 0,
@@ -936,8 +1041,8 @@
             "underlined": false,
             "text": "CHƠI",
             "font": "SVN-Determination Sans2.otf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
             "characterSize": 40,
             "color": "0;0;0"
           }
@@ -1045,7 +1150,7 @@
           ],
           "string": "THOÁT",
           "font": "SVN-Determination Sans2.otf",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 40,
           "color": {
             "b": 0,
@@ -1068,8 +1173,8 @@
             "underlined": false,
             "text": "THOÁT",
             "font": "SVN-Determination Sans2.otf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
             "characterSize": 40,
             "color": "0;0;0"
           }
@@ -1085,7 +1190,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "TRAFFIC DEAD",
+          "string": "TRAFFIC GAME",
           "font": "SVN-Determination Sans2.otf",
           "textAlignment": "left",
           "characterSize": 100,
@@ -1108,7 +1213,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "TRAFFIC DEAD",
+            "text": "TRAFFIC GAME",
             "font": "SVN-Determination Sans2.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -1166,6 +1271,18 @@
                 "\"Flash\"",
                 "\"Backward\"",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Traffic Loops [Lofi-Music].mp3",
+                "yes",
+                "50",
                 ""
               ]
             }
@@ -1250,6 +1367,33 @@
               "parameters": [
                 "",
                 "\"GameScene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "HuongDan",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hướng dẫn\"",
                 ""
               ]
             }
@@ -1402,6 +1546,485 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "H_432_7899ng_32d_7851n",
+      "name": "Hướng dẫn",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5676257048338068,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 808,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "83d4dca6-7e02-4313-b34b-2ee0c33f9748",
+          "width": 1079,
+          "x": 0,
+          "y": -1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Transition",
+          "persistentUuid": "6832840b-ad76-4cf7-a197-e0ac647ddfe5",
+          "width": 0,
+          "x": 790,
+          "y": -45,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WhiteSleekButton",
+          "persistentUuid": "3a78af58-7cbd-45cc-89f5-3c094d172fc5",
+          "width": 0,
+          "x": 81,
+          "y": 558,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 230,
+          "keepRatio": true,
+          "layer": "",
+          "name": "HuongDan",
+          "persistentUuid": "733951e2-6650-4242-9c95-c6f00221ad68",
+          "width": 687,
+          "x": 56,
+          "y": 75,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "minimalistic-image-featuring-traffic-light-260nw-2545355729.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 374,
+                            "y": 0
+                          },
+                          {
+                            "x": 374,
+                            "y": 280
+                          },
+                          {
+                            "x": 0,
+                            "y": 280
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "02cb22c03a7c7f9262819832f0fea819fc5021f2b7a8854eb99d6ff20f180d66",
+          "name": "WhiteSleekButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 31,
+            "TopPadding": 5,
+            "LeftPadding": 12,
+            "RightPadding": 12,
+            "PressedLabelOffsetY": 6
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 55,
+              "height": 128,
+              "leftMargin": 40,
+              "rightMargin": 40,
+              "texture": "White Sleek Button_Hovered.png",
+              "tiled": false,
+              "topMargin": 37,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 55,
+              "height": 128,
+              "leftMargin": 40,
+              "rightMargin": 40,
+              "texture": "White Sleek Button_Idle.png",
+              "tiled": false,
+              "topMargin": 37,
+              "width": 256
+            },
+            "Label": {
+              "bold": true,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Trở về",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 50,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": true,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Trở về",
+                "font": "",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 50,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 55,
+              "height": 128,
+              "leftMargin": 40,
+              "rightMargin": 40,
+              "texture": "White Sleek Button_Pressed.png",
+              "tiled": false,
+              "topMargin": 37,
+              "width": 256
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "HuongDan",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "- Sử dụng 4 phím điều hướng (↑ ↓ ← →) để di chuyển phương tiện.\n\n- Trả lời các câu hỏi để nhận điểm và xu phần thưởng.\n\n- Chú ý: Các tình huống bất ngờ (storyboard) có thể xuất hiện trên đường đi, hãy phản ứng thật nhanh!\n\n- Nhấn \"Back\" để trở về.",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 31,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "- Sử dụng 4 phím điều hướng (↑ ↓ ← →) để di chuyển phương tiện.\n\n- Trả lời các câu hỏi để nhận điểm và xu phần thưởng.\n\n- Chú ý: Các tình huống bất ngờ (storyboard) có thể xuất hiện trên đường đi, hãy phản ứng thật nhanh!\n\n- Nhấn \"Back\" để trở về.",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 31,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "WhiteSleekButton"
+          },
+          {
+            "objectName": "HuongDan"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                "1",
+                "\"Flash\"",
+                "\"Backward\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Traffic Loops [Lofi-Music].mp3",
+                "yes",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "WhiteSleekButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Intro\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transition",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "GameScene",
       "name": "GameScene",
       "r": 209,
@@ -1419,7 +2042,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6406912462476497,
+        "zoomFactor": 0.5250860067782521,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2629,8 +3252,8 @@
           "name": "Obstacle",
           "opacity": 0,
           "persistentUuid": "3b959046-2bec-4a4a-abec-13064937cf3c",
-          "width": 1141,
-          "x": -29,
+          "width": 1136,
+          "x": -31,
           "y": -33,
           "zOrder": 3,
           "numberProperties": [],
@@ -2694,13 +3317,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 98,
+          "height": 100,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "ed987966-bf34-4c14-8f24-f0017f2d6f45",
-          "width": 194,
-          "x": 883,
+          "width": 199,
+          "x": 878,
           "y": 0,
           "zOrder": 4,
           "numberProperties": [],
@@ -2869,24 +3492,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 27,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Quiz9",
-          "opacity": 153,
-          "persistentUuid": "54be7069-eb87-48ba-ace8-09bdfc54d5e0",
-          "width": 27,
-          "x": 353,
-          "y": 600,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -2913,6 +3518,23 @@
           "x": 891,
           "y": 48,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Goal",
+          "persistentUuid": "bb82bf78-88da-40d2-87a5-2ef8bbf34580",
+          "width": 24,
+          "x": 1052,
+          "y": 587,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3862,6 +4484,17 @@
             "characterSize": 40,
             "color": "248;231;28"
           }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Goal",
+          "texture": "NewTiledSprite6",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -3928,6 +4561,9 @@
           },
           {
             "objectName": "StoryBoard3"
+          },
+          {
+            "objectName": "Goal"
           }
         ]
       },
@@ -3966,6 +4602,44 @@
               },
               "parameters": [
                 "Obstacle"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Game background Music loop short - Sound Effect free (HD).mp3",
+                "yes",
+                "5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Back\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Intro\"",
+                ""
               ]
             }
           ]
@@ -4020,15 +4694,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -4042,6 +4707,38 @@
                   "parameters": [
                     "",
                     "\"Quiz1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin1",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz1",
+                    ""
                   ]
                 },
                 {
@@ -4079,15 +4776,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz2",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Wait"
@@ -4104,6 +4792,38 @@
                     "",
                     "\"Quiz2\""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin2",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz2",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -4140,15 +4860,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz3",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Wait"
@@ -4165,6 +4876,38 @@
                     "",
                     "\"Quiz3\""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin3",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz3",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -4201,15 +4944,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz4",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Wait"
@@ -4226,6 +4960,38 @@
                     "",
                     "\"Quiz4\""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin4",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz4",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -4262,15 +5028,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz5",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Wait"
@@ -4287,6 +5044,38 @@
                     "",
                     "\"Quiz5\""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin5",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz5",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -4323,15 +5112,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz6",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Wait"
@@ -4348,6 +5128,38 @@
                     "",
                     "\"Quiz6\""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin6",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz6",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -4384,15 +5196,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz7",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Wait"
@@ -4409,6 +5212,38 @@
                     "",
                     "\"Quiz7\""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin7",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz7",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -4445,15 +5280,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz8",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Wait"
@@ -4470,6 +5296,38 @@
                     "",
                     "\"Quiz8\""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin8",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz8",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -4508,15 +5366,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Quiz9",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -4530,6 +5379,38 @@
                   "parameters": [
                     "",
                     "\"Quiz9\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin9",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Quiz9",
+                    ""
                   ]
                 },
                 {
@@ -4691,8 +5572,32 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "CarRed",
+                "Goal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Outro\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -5749,8 +6654,18 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerB",
+                    "AnswerA",
                     "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin1",
+                    "=",
                     ""
                   ]
                 }
@@ -5781,6 +6696,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin1",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
                   ]
                 }
               ],
@@ -5817,7 +6754,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerA",
+                    "AnswerB",
                     "ButtonFSM",
                     ""
                   ]
@@ -5838,6 +6775,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -5896,6 +6845,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -7055,6 +8016,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin2",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -7083,6 +8054,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin2",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
                   ]
                 }
               ],
@@ -7140,6 +8133,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -7200,6 +8205,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -7256,6 +8273,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -8357,6 +9386,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin3",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -8385,6 +9424,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin3",
+                    "True",
+                    ""
                   ]
                 }
               ],
@@ -8442,6 +9503,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -8502,6 +9575,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -8558,6 +9643,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -9659,6 +10756,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin4",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -9687,6 +10794,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin4",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
                   ]
                 }
               ],
@@ -9744,6 +10873,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -9804,6 +10945,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -9860,6 +11013,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -10926,6 +12091,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin5",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -10954,6 +12129,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin5",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
                   ]
                 }
               ],
@@ -11013,6 +12210,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -11069,6 +12278,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -12169,6 +13390,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin6",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -12197,6 +13428,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin6",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
                   ]
                 }
               ],
@@ -12254,6 +13507,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -12314,6 +13579,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -12370,6 +13647,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -13471,6 +14760,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin7",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -13499,6 +14798,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin7",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
                   ]
                 }
               ],
@@ -13556,6 +14877,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -13616,6 +14949,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -13672,6 +15017,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -14773,6 +16130,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin8",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -14801,6 +16168,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin8",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
                   ]
                 }
               ],
@@ -14858,6 +16247,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -14918,6 +16319,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -14974,6 +16387,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -16074,6 +17499,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin9",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -16102,6 +17537,28 @@
                     "point",
                     "+",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "delCoin9",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Mouse Click Sound Effect.mp3",
+                    "",
+                    "20",
+                    ""
                   ]
                 }
               ],
@@ -16159,6 +17616,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -16219,6 +17688,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -16275,6 +17756,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -16422,7 +17915,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4500291557864217,
+        "zoomFactor": 0.31246905763209487,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17989,6 +19482,18 @@
                     "+",
                     "20"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -18045,6 +19550,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -18105,6 +19622,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -18161,6 +19690,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -18612,8 +20153,8 @@
           "name": "Correct",
           "persistentUuid": "78c3f694-f6f7-4f72-81dc-9e5c97f1344b",
           "width": 0,
-          "x": 2570,
-          "y": 564,
+          "x": 2780,
+          "y": 173,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -18628,8 +20169,8 @@
           "name": "Wrong",
           "persistentUuid": "d71b5118-880c-4667-83b9-82f0e68e9cf2",
           "width": 0,
-          "x": 2509,
-          "y": 564,
+          "x": 2725,
+          "y": 169,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -19777,6 +21318,18 @@
                     "+",
                     "20"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\TING SOUND EFFECT.mp3",
+                    "",
+                    "30",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -19865,6 +21418,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -19957,6 +21522,18 @@
                     "Wrong",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -20045,6 +21622,18 @@
                   },
                   "parameters": [
                     "Wrong",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Wrong Sound Effect.mp3",
+                    "",
+                    "10",
                     ""
                   ]
                 }
@@ -20142,6 +21731,487 @@
         {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Outro",
+      "name": "Outro",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5311973979745606,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 809,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "e1cc19dd-887e-4dd2-a651-68983a3cb8c6",
+          "width": 1081,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FinalPoint",
+          "persistentUuid": "59dc5736-5c2b-4791-81de-29453fa3621c",
+          "width": 0,
+          "x": 78,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WhiteSleekButton",
+          "persistentUuid": "d83d2e50-5259-4a1d-93b4-86de88b8a480",
+          "width": 0,
+          "x": 125,
+          "y": 559,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Transition",
+          "persistentUuid": "ae09f2a1-d5e0-4bc4-915a-68c1988e03fc",
+          "width": 0,
+          "x": 849,
+          "y": -55,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "minimalistic-image-featuring-traffic-light-260nw-2545355729.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 374,
+                            "y": 0
+                          },
+                          {
+                            "x": 374,
+                            "y": 280
+                          },
+                          {
+                            "x": 0,
+                            "y": 280
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "FinalPoint",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Điểm của bạn: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Điểm của bạn: 0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "02cb22c03a7c7f9262819832f0fea819fc5021f2b7a8854eb99d6ff20f180d66",
+          "name": "WhiteSleekButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 31,
+            "TopPadding": 5,
+            "LeftPadding": 12,
+            "RightPadding": 12,
+            "PressedLabelOffsetY": 6
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 55,
+              "height": 128,
+              "leftMargin": 40,
+              "rightMargin": 40,
+              "texture": "White Sleek Button_Hovered.png",
+              "tiled": false,
+              "topMargin": 37,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 55,
+              "height": 128,
+              "leftMargin": 40,
+              "rightMargin": 40,
+              "texture": "White Sleek Button_Idle.png",
+              "tiled": false,
+              "topMargin": 37,
+              "width": 256
+            },
+            "Label": {
+              "bold": true,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "THOÁT",
+              "font": "WorkSans-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": true,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "THOÁT",
+                "font": "WorkSans-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 60,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 55,
+              "height": 128,
+              "leftMargin": 40,
+              "rightMargin": 40,
+              "texture": "White Sleek Button_Pressed.png",
+              "tiled": false,
+              "topMargin": 37,
+              "width": 256
+            }
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "FinalPoint"
+          },
+          {
+            "objectName": "WhiteSleekButton"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                "1",
+                "\"Flash\"",
+                "\"Backward\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "FinalPoint",
+                "Text",
+                "=",
+                "\"Điểm của bạn: \"+point"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "WhiteSleekButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transition",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
           "name": "Effect",
