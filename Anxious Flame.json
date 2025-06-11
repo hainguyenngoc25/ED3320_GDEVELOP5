@@ -6478,7 +6478,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Có bao nhiêu nhóm biển báo hiệu đường bộ?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -6501,7 +6501,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Có bao nhiêu nhóm biển báo hiệu đường bộ?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -6531,7 +6531,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Ba nhóm: Biển báo cấm, biển báo nguy hiểm và biển hiệu lệnh.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -6554,7 +6554,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Ba nhóm: Biển báo cấm, biển báo nguy hiểm và biển hiệu lệnh.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -6584,7 +6584,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Bốn nhóm: Biển báo cấm, biển bảo nguy hiểm, biển hiệu lệnh và biển phụ.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -6607,7 +6607,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Bốn nhóm: Biển báo cấm, biển bảo nguy hiểm, biển hiệu lệnh và biển phụ.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -6637,7 +6637,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -6660,7 +6660,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -6690,7 +6690,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "D. ",
+          "string": "D. Cả 3 phương án trên",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -6713,7 +6713,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "D. ",
+            "text": "D. Cả 3 phương án trên",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -7051,7 +7051,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerA",
+                    "AnswerC",
                     "ButtonFSM",
                     ""
                   ]
@@ -7177,7 +7177,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerC",
+                    "AnswerA",
                     "ButtonFSM",
                     ""
                   ]
@@ -7403,7 +7403,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7159512592579398,
+        "zoomFactor": 0.46520428746527087,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7497,13 +7497,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "Question",
           "persistentUuid": "8f494158-f0c4-49d1-8c1a-5e78aec40f8b",
-          "width": 0,
+          "width": 868,
           "x": 109,
           "y": 72,
           "zOrder": 3,
@@ -7779,7 +7780,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Khi chuyển làn đường, người lái xe phải bật đèn tín hiệu báo rẽ như thế nào là đúng quy tắc giao thông?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -7802,7 +7803,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Khi chuyển làn đường, người lái xe phải bật đèn tín hiệu báo rẽ như thế nào là đúng quy tắc giao thông?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -7832,7 +7833,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Khi bắt đầu chuyển làn đường.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -7855,7 +7856,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Khi bắt đầu chuyển làn đường.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -7885,7 +7886,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Trước khi thay đổi làn đường.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -7908,7 +7909,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Trước khi thay đổi làn đường.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -7938,7 +7939,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Sau khi thay đổi làn đường.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -7961,7 +7962,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Sau khi thay đổi làn đường.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -7991,7 +7992,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "D. ",
+          "string": "D. Bất cứ lúc nào.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -8014,7 +8015,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "D. ",
+            "text": "D. Bất cứ lúc nào.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -8352,7 +8353,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerA",
+                    "AnswerB",
                     "ButtonFSM",
                     ""
                   ]
@@ -8420,7 +8421,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerB",
+                    "AnswerA",
                     "ButtonFSM",
                     ""
                   ]
@@ -10051,14 +10052,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 69,
+          "height": 121,
           "keepRatio": true,
           "layer": "",
           "name": "GreenButtonWithShadow",
           "persistentUuid": "75f7aa41-e78a-4a1f-b4d5-0e82bc459b9f",
           "width": 850,
           "x": 105,
-          "y": 369,
+          "y": 362,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -10074,25 +10075,8 @@
           "name": "GreenButtonWithShadow",
           "persistentUuid": "22408c6f-1f24-4886-9411-2d867555db40",
           "width": 850,
-          "x": 106,
-          "y": 480,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 69,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GreenButtonWithShadow",
-          "persistentUuid": "d3a5b221-5051-400d-8dd0-b9d8f860a0d3",
-          "width": 850,
-          "x": 108,
-          "y": 590,
+          "x": 104,
+          "y": 509,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -10158,26 +10142,9 @@
           "name": "AnswerC",
           "persistentUuid": "2570097f-6295-4733-a8e0-791b89a7dfaa",
           "width": 834,
-          "x": 120,
-          "y": 484,
+          "x": 118,
+          "y": 513,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 61,
-          "keepRatio": true,
-          "layer": "",
-          "name": "AnswerD",
-          "persistentUuid": "67dd1a04-d635-4855-8144-edc29e7f9fe9",
-          "width": 823,
-          "x": 122,
-          "y": 591,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10382,7 +10349,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Các biện pháp tiết kiệm nhiên liệu khi chạy xe?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -10405,7 +10372,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Các biện pháp tiết kiệm nhiên liệu khi chạy xe?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -10435,7 +10402,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi xe chạy.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -10458,7 +10425,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi xe chạy.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -10488,7 +10455,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -10511,7 +10478,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -10541,7 +10508,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Cả hai ý trên.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -10564,7 +10531,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Cả hai ý trên.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -10955,7 +10922,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerA",
+                    "AnswerC",
                     "ButtonFSM",
                     ""
                   ]
@@ -11081,65 +11048,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerC",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Question"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Wrong",
-                    ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PopScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "AnswerD",
+                    "AnswerA",
                     "ButtonFSM",
                     ""
                   ]
@@ -11683,7 +11592,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Phương tiện giao thông đường bộ gồm những loại nào?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -11706,7 +11615,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Phương tiện giao thông đường bộ gồm những loại nào?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11736,7 +11645,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Phương tiện giao thông cơ giới đường bộ.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -11759,7 +11668,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Phương tiện giao thông cơ giới đường bộ.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11789,7 +11698,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Phương tiện giao thông thô sơ đường bộ, xe máy chuyên dùng và các loại xe tương tự.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -11812,7 +11721,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Phương tiện giao thông thô sơ đường bộ, xe máy chuyên dùng và các loại xe tương tự.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11842,7 +11751,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Cả hai ý trên.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -11865,7 +11774,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Cả hai ý trên.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11895,7 +11804,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "D. ",
+          "string": "D. Hihi",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -11918,7 +11827,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "D. ",
+            "text": "D. Hihi",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -12256,7 +12165,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerA",
+                    "AnswerC",
                     "ButtonFSM",
                     ""
                   ]
@@ -12382,7 +12291,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "AnswerC",
+                    "AnswerA",
                     "ButtonFSM",
                     ""
                   ]
@@ -12608,7 +12517,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7159512592579398,
+        "zoomFactor": 0.49710693721588856,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12702,13 +12611,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "Question",
           "persistentUuid": "8f494158-f0c4-49d1-8c1a-5e78aec40f8b",
-          "width": 0,
+          "width": 872,
           "x": 109,
           "y": 72,
           "zOrder": 3,
@@ -12984,7 +12894,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Việc sản xuất, sử dụng, mua bán trái phép biển số xe có bị nghiêm cấm hay không?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -13007,7 +12917,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Việc sản xuất, sử dụng, mua bán trái phép biển số xe có bị nghiêm cấm hay không?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -13037,7 +12947,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Không bị nghiêm cấm.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -13060,7 +12970,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Không bị nghiêm cấm.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -13090,7 +13000,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Bị nghiêm cấm.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -13113,7 +13023,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Bị nghiêm cấm.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -13143,7 +13053,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Bị nghiêm cấm tuỳ trường hợp.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -13166,7 +13076,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Bị nghiêm cấm tuỳ trường hợp.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -14003,13 +13913,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "Question",
           "persistentUuid": "8f494158-f0c4-49d1-8c1a-5e78aec40f8b",
-          "width": 0,
+          "width": 856,
           "x": 109,
           "y": 72,
           "zOrder": 3,
@@ -14285,7 +14196,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Khi có tín hiệu của xe ưu tiên, người và phương tiện tham gia giao thông đường bộ phải tuân thủ quy định nào dưới đây?",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -14308,7 +14219,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Khi có tín hiệu của xe ưu tiên, người và phương tiện tham gia giao thông đường bộ phải tuân thủ quy định nào dưới đây?",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -14338,7 +14249,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "A. ",
+          "string": "A. Giảm tốc độ, đi sát lề đường bên phải hoặc dừng lại để nhường đường.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -14361,7 +14272,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A. ",
+            "text": "A. Giảm tốc độ, đi sát lề đường bên phải hoặc dừng lại để nhường đường.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -14391,7 +14302,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "B. ",
+          "string": "B. Tăng tốc độ và đi sát lề đường bên phải để nhường đường.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -14414,7 +14325,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "B. ",
+            "text": "B. Tăng tốc độ và đi sát lề đường bên phải để nhường đường.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -14444,7 +14355,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "C. ",
+          "string": "C. Giảm tốc độ, đi sát lề đường bên trái để nhường đường.",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -14467,7 +14378,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "C. ",
+            "text": "C. Giảm tốc độ, đi sát lề đường bên trái để nhường đường.",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -14497,7 +14408,7 @@
               "Index": 2.0247e-320
             }
           ],
-          "string": "D. ",
+          "string": "D. nƠi tÌnH yÊu bỐc đẦu",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -14520,7 +14431,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "D. ",
+            "text": "D. nƠi tÌnH yÊu bỐc đẦu",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -15586,7 +15497,7 @@
               "TypedText": ""
             }
           ],
-          "string": "Câu hỏi: Hihi bcuoi vl",
+          "string": "Câu hỏi: Hihi bcuoi vn",
           "font": "SVN-Determination Sans.otf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -15609,7 +15520,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Câu hỏi: Hihi bcuoi vl",
+            "text": "Câu hỏi: Hihi bcuoi vn",
             "font": "SVN-Determination Sans.otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
