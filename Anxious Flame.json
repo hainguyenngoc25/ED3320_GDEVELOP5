@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1080,
     "windowHeight": 720,
-    "latestCompilationDirectory": "F:\\HUST\\20242\\ED3320\\Traffic Game",
+    "latestCompilationDirectory": "F:\\HUST\\Project\\ED3320\\Traffic Game",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -1370,6 +1370,26 @@
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Traffic Loops [Lofi-Music].mp3",
+                "1",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "value": "PlayMusic"
@@ -7213,6 +7233,15 @@
                 "yes",
                 "40",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
