@@ -5,5 +5,5 @@
 ## Đề tài:
 Thiết kế trò chơi giáo dục hướng dẫn an toàn giao thông
 
-## Chơi thử game tại đây:
+## Trải nghiệm trò chơi tại đây:
 https://nguyenngochai.itch.io/traffic-game
