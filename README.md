@@ -1,5 +1,5 @@
 # ED3320 - Quản trị dự án (HUST)
-- Sản phẩm báo cáo cuối kì học phần Quản trị dự án (ED3320), Đại học Bách khoa Hà Nội
+- Sản phẩm báo cáo cuối kì học phần Quản trị dự án (ED3320) học kì 2024.2, Đại học Bách khoa Hà Nội
 - GVHD: PGS.TS Bùi Thị Thúy Hằng
 
 ## Đề tài:
